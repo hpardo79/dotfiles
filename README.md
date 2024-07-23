@@ -1,2 +1,2 @@
-# dotfiles-manjaro-sway
-DotFiles de mis configuraciones en Manjaro Sway
+# dotfiles
+Manjaro Sway DotFiles
