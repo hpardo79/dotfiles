@@ -11,5 +11,5 @@ Modo para las opciones del menu salida de **Sway**, basado en el Modo Shutdown q
 
 ## Keybinds help 
 Menú o guía rápida de los atajos de teclado configurados en el Sway, por medio del script [**KeybindsHelp**](sway/.config/sway/scripts.d/KeybindsHelp.sh). 
-Se requiere instalar [**Yad**](https://yad-guide.ingk.se/) para visualizar la ventana.
+Se requiere instalar [**Yad**](https://yad-guide.ingk.se/) para visualizar la ventana.<br>
 ![](keybindshelp.png)
