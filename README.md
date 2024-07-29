@@ -2,11 +2,11 @@
 Mi configuración y personalización realizadas sobre la instalación de Manjaro Sway. Mi tema de color es utilizando [**Dracula Theme**](https://draculatheme.com/).
 
 ## Fondo de pantalla y Waybar
-Muestra del fondo de pantalla y de la disposicion de elementos en la [**Waybar**](waybar/.config/waybar/config.jsonc)
+Muestra del fondo de pantalla y de la disposicion de elementos en la [**Waybar**](waybar/.config/waybar/config.jsonc)<br>
 ![](waybar.png)
 
 ## Powermenu
-Modo para las opciones del menu salida de **Sway**, basado en el Modo Shutdown que viene en el Manjaro. [**Powermenu**](sway/.config/sway/modes.d/powermenu)
+Modo para las opciones del menu salida de **Sway**, basado en el Modo Shutdown que viene en el Manjaro. [**Powermenu**](sway/.config/sway/modes.d/powermenu)<br>
 ![](powermenu.png)
 
 ## Keybinds help 
