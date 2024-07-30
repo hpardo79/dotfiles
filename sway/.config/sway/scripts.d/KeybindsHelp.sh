@@ -20,9 +20,9 @@ Yellow="#F1FA8C" #(a bright yellow color)
 ##################################################
 
 # My keybinds
-CONTENT="<span face='monospace' foreground='$Yellow'><b><span foreground='$Orange'>My Keybinds Helps</span></b>
+CONTENT="<span face='monospace' foreground='$Yellow'><b><span foreground='$Red'>Keybinds Helps</span></b>
 
-<b><span foreground='$Purple'>Manjaro Sway Keybinds</span></b>
+<b><span foreground='$Orange'>Manjaro Sway Keybinds</span></b>
 <small><span foreground='$Green'>Mod  +  Shift  +  e    </span> = Shutdown Mode 
 <span foreground='$Green'>Mod  +  Shift  +  c    </span> = Sway Reload 
 <span foreground='$Green'>Mod  +  Shift  +  q    </span> = Kill (Apps) 󰯆
@@ -36,7 +36,7 @@ CONTENT="<span face='monospace' foreground='$Yellow'><b><span foreground='$Orang
 <span foreground='$Green'>Mod  +  ← ↑ → ↓        </span> = Focus 󰼀
 <span foreground='$Green'>Mod  +  1 > 9          </span> = Select Workspace </small>
 
-<b><span foreground='$Purple'>My Keybinds</span></b>
+<b><span foreground='$Orange'>User Keybinds</span></b>
 <small><span foreground='$Green'>Ctrl +  Shift  +  h    </span> = Keybinds Help 󰞋
 <span foreground='$Green'>Mod  +  Ctrl   +  p    </span> = PowerMenu Mode 
 <span foreground='$Green'>Ctrl +  Return         </span> = Kitty Terminal 
