@@ -9,16 +9,6 @@ Purple="#BD93F9" #(a bright purple color)
 Red="#FF5555" #(a bright red color)
 Yellow="#F1FA8C" #(a bright yellow color)
 
-##################################################
-# Find "bindsym" on /etc/sway/ and $HOME/.config/sway/
-# KEYBINDS=$(grep -rh "bindsym" /etc/sway/ $HOME/.config/sway/ | sed 's/bindsym/<b><span foreground=\"red\">&<\/span><\/b>/g')
-
-# Add keybinds
-#CONTENT="$CONTENT
-#<b><big>Keybinds de Sway:</big></b>
-#$KEYBINDS"
-##################################################
-
 # My keybinds
 CONTENT="<span face='monospace' foreground='$Yellow'><b><span foreground='$Red'>Keybinds Helps</span></b>
 
@@ -44,7 +34,8 @@ CONTENT="<span face='monospace' foreground='$Yellow'><b><span foreground='$Red'>
 <span foreground='$Green'>Ctrl +  Shift  +  f    </span> = Firefox Browser 󰈹
 <span foreground='$Green'>Mod  +  Ctrl   +  f    </span> = Yazi File Manager 󰇥
 <span foreground='$Green'>Ctrl +  Shift  +  t    </span> = Thunar File Manager 
-<span foreground='$Green'>Ctrl +  Shift  +  m    </span> = Mousepad Editor 󱩼</small>
+<span foreground='$Green'>Ctrl +  Shift  +  m    </span> = Mousepad Editor 󱩼
+<span foreground='$Green'>Ctrl +  Shift  +  y    </span> = Youtube on Terminal </small>
 
 <b><span foreground='$Red'>󱞩 Keep It Simple Stupid 󱞥</span></b></span>
 "
