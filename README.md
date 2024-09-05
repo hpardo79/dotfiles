@@ -8,7 +8,7 @@ Waybar: Agregado archivos style.css (para el estilo) y mocha.css (tema de colore
 ![](waybar.png)
 
 ## Powermenu
-Modo para las opciones del menu salida de **Sway**, basado en el Modo Shutdown que viene en el Manjaro. [**Powermenu**](sway/.config/sway/modes.d/powermenu)<br>
+El **Modo Powermenu** llama un menu de opciones para la salida de *Sway*; es basado en el **Modo Shutdown** que viene incluido en *Manjaro*. [**Powermenu**](sway/.config/sway/modes.d/powermenu)<br>
 ![](powermenu.png)
 
 ## Keybinds help 
