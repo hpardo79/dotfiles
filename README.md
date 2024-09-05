@@ -3,6 +3,8 @@ Mi configuración y personalización realizadas sobre la instalación de Manjaro
 
 ## Fondo de pantalla y Waybar
 Muestra del fondo de pantalla y de la disposicion de elementos en la [**Waybar**](waybar/.config/waybar/config.jsonc)<br>
+### Actualizado Sept/2024
+Waybar: Agregado archivos style.css (para el estilo) y mocha.css (tema de colores)
 ![](waybar.png)
 
 ## Powermenu
