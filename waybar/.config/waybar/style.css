@@ -1,0 +1,197 @@
+@import "mocha.css";
+
+* {
+  font-family: JetBrainMono Nerd Font;
+  font-size: 1rem;
+  min-height: 0;
+}
+
+#waybar {
+  background-color: @base;
+  color: @text;
+  margin: 0.10rem;
+  border-radius: 0.75rem;
+}
+
+#workspaces {
+  margin: 0.25rem;
+}
+
+#workspaces button {
+  color: @lavender;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+#workspaces button.active, #workspaces button.focused {
+  color: @green;
+  border-radius: 0.5rem;
+  background-color: @surface0;
+}
+
+#workspaces button:hover {
+  color: @sapphire;
+  border-radius: 0.5rem;
+}
+
+#custom-scratchpad,
+#custom-wf-recorder, 
+#mode,
+#custom-clipboard,
+#tray,
+#language,
+#battery,
+#custom-playerctl,
+#custom-idle_inhibitor,
+#pulseaudio,
+#backlight,
+#custom-pacman,
+#network,
+#bluetooth,
+#clock,
+
+#custom-scratchpad {
+  color: @green;
+  background-color: @base;
+  margin: 0.25rem;
+  padding: 0.5rem;
+}
+
+#custom-wf-recorder, #mode {
+  border-radius: 0.5rem;
+  background-color: @surface0;
+  margin: 0.25rem;
+  padding: 0.5rem;
+}
+
+#custom-clipboard {
+  color: @peach;
+  margin: 0.25rem;
+  padding: 0.5rem;
+}
+
+#custom-clipboard:hover {
+  border-radius: 0.5rem;
+  background-color: @surface0;
+  padding: 0.5rem;
+}
+
+#tray {
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+#language {
+  color: @sky;
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+#language:hover {
+  border-radius: 0.5rem;
+  background-color: @surface0;
+  padding: 0.25rem;
+}
+
+#battery {
+  color: @green;
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+#battery:hover {
+  border-radius: 0.5rem;
+  background-color: @surface0;
+  padding: 0.25rem;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @yellow;
+}
+
+#battery.critical:not(.charging) {
+  color: @red;
+}
+
+#custom-idle_inhibitor {
+  color: @lavender;
+  margin: 0.25rem;
+  padding: 0.5rem;
+}
+
+#custom-idle_inhibitor:hover {
+  border-radius: 0.5rem;
+  background-color: @surface0;
+  padding: 0.5rem;
+}
+
+#pulseaudio {
+  color: @green;
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+#pulseaudio.muted {
+  color: @red;
+}
+
+#pulseaudio:hover {
+  border-radius: 0.5rem;
+  background-color: @surface0;
+  padding: 0.25rem;
+}
+
+#backlight {
+  color: @yellow;
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+#backlight:hover {
+  border-radius: 0.5rem;
+  background-color: @surface0;
+  padding: 0.25rem;
+}
+
+#custom-pacman {
+  color: @red;
+  background-color: @surface0;
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+#network {
+  color: @sky;
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+#network:hover {
+  color: @blue;
+}
+
+#bluetooth {
+  color: @sky;
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+#bluetooth:hover {
+  color: @blue;
+}
+
+#clock {
+  color: @blue;
+  margin: 0.25rem;
+  padding: 0.25rem;
+}
+
+#clock:hover {
+  border-radius: 0.5rem;
+  background-color: @surface0;
+  padding: 0.25rem;
+}
